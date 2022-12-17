@@ -19,13 +19,13 @@
     )
 - CMakeList.txt 를 생성하고 두 파일은 같은 경로에 있어야 한다.    
 ## 실행 파일 만들기
-    ```c
+```cpp
     #include <iostream>
     int main() {
       std::cout << "Hello, CMake" << std::endl;
       return 0;
     }
-    ```
+```
     
 위 내용을 main.cc 에 저장한다.
 ## 빌드 파일 생성
